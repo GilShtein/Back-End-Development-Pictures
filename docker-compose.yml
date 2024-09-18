@@ -5,7 +5,7 @@ services:
     container_name: capstone_postgres
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: Yadmor91
+      POSTGRES_PASSWORD: password
       POSTGRES_DB: capstone_db
     ports:
       - "5432:5432"
